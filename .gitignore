@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets & local state — never commit
+.env
+*.env
+config/gateway.yaml
+ledger.jsonl
+*.ledger.jsonl
+*.lock
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
